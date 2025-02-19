@@ -5,7 +5,7 @@
 // 
 // Create Date: 02/17/2025 05:44:06 PM
 // Design Name: 
-// Module Name: tb
+// Module Name: clock_gen
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
