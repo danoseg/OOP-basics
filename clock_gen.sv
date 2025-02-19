@@ -27,7 +27,8 @@ module clock_gen();
   
   reg clk=0;
   reg clk100 = 0;
-  
+
+  //reference clock
   always #5 clk = ~clk;  //100 MHz
   
   //variables for task
