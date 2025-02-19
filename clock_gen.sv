@@ -31,7 +31,7 @@ module clock_gen();
   //reference clock
   always #5 clk = ~clk;  //100 MHz
   
-  //variables for task
+  //variables for calc task
   real phase; 
   real ton;
   real toff;
