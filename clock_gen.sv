@@ -59,6 +59,7 @@ module clock_gen();
   
   initial begin
     calc(100_000_000, 0.5, 2, phase, ton, toff);
+    $display("High Time: %0.2f, Low Time: %0.2f", ton, toff); //debugging ton and toff
     clkgen(phase, ton, toff);
   end
   
